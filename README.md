@@ -1,2 +1,2 @@
 # service-template
-beginners template for go based services
+beginners template for services
