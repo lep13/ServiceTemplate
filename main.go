@@ -11,8 +11,6 @@ const (
 	port = "8080"
 )
 
-func init() {}
-
 func main() {
 
 	err := api.ServeHTTP(fmt.Sprintf("%s:%s", host, port))
