@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"service-template/cmd/api"
+
+	"github.com/vucchaid/service-template/cmd/api"
 )
 
 const (

@@ -2,8 +2,9 @@ package routes
 
 import (
 	"net/http"
-	"service-template/cmd/api/routes/internal/handlers"
-	"service-template/cmd/api/routes/internal/middleware"
+
+	"github.com/vucchaid/service-template/cmd/api/routes/internal/handlers"
+	"github.com/vucchaid/service-template/cmd/api/routes/internal/middleware"
 
 	"github.com/gorilla/mux"
 )

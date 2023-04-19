@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"service-template/pkg/services/healthcheck"
+
+	"github.com/vucchaid/service-template/pkg/services/healthcheck"
 )
 
 type handlerService struct{}
