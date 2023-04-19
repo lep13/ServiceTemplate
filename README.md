@@ -1,6 +1,8 @@
 # service-template
 beginners template for services
 
+[![Go Report Card](https://goreportcard.com/badge/vucchaid/service-template)](https://goreportcard.com/report/vucchaid/service-template) [![GoDoc](https://godoc.org/github.com/vucchaid/service-template?status.svg)](https://godoc.org/github.com/vucchaid/service-template)
+
 <hr>
 
 ## basic:
