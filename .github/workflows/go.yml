@@ -17,11 +17,12 @@ jobs:
       - name: Update go.mod
         run: |
           sed -i "s|module github.com/lep13/ServiceTemplate|module github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}|" go.mod
+          cat go.mod # This will output the contents of go.mod to the log for verification
 
       - name: Commit and Push
         run: |
           git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.name "GitHub Action"
           git add go.mod
-          git commit -m "Update go.mod with correct module path"
+          git commit -m "Update go.mod with correct module path" || echo "No changes to commit"
           git push
