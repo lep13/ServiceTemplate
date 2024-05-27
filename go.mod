@@ -1,4 +1,4 @@
-module github.com/vucchaid/service-template
+module github.com/lep13/ServiceTemplate
 
 go 1.20
 
