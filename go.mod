@@ -3,8 +3,9 @@ module github.com/lep13/ServiceTemplate
 go 1.20
 
 require (
-	github.com/gorilla/mux v1.8.0
-	github.com/stretchr/testify v1.8.2
+	github.com/gorilla/mux v1.8.1
+	github.com/stretchr/testify v1.9.0
+	github.com/vucchaid/service-template v0.0.0-20240305012408-470116e0bb3e
 )
 
 require (

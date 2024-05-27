@@ -16,7 +16,7 @@ jobs:
 
       - name: Update go.mod
         run: |
-          sed -i 's/module github.com\/placeholder\/repo/module github.com\/${{ github.repository_owner }}\/${{ github.event.repository.name }}/' go.mod
+          sed -i "s|module github.com/lep13/ServiceTemplate|module github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}|" go.mod
 
       - name: Commit and Push
         run: |
