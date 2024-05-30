@@ -1,5 +1,5 @@
 #!groovy
 
-import golangBuildTemplate
+import JenkinsSharedLibrary
 
-golangBuildTemplate()
+JenkinsSharedLibrary()
