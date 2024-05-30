@@ -1,5 +1,5 @@
 #!groovy
 
-import JenkinsSharedLibrary
+import sharedLibrary
 
-JenkinsSharedLibrary()
+sharedLibrary()
